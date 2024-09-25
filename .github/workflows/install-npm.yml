@@ -1,0 +1,9 @@
+name: install editor config
+on: push
+
+josb:
+editorconfig:
+  runs-on: ubuntu-latest
+  steps: 
+    - uses: actions/checkout@v4
+    - uses: actions/setup-node@v4
